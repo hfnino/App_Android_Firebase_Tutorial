@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904033292644",
+    "project_id": "fir-tutorial-firebase-hnino",
+    "storage_bucket": "fir-tutorial-firebase-hnino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904033292644:android:3a526dda018c7effeb2a71",
+        "android_client_info": {
+          "package_name": "co.com.henryto.app_android_firebase_tutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904033292644-fasekj62kh90jilqppg38n6o3pr2k4q7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNcxRr28uekzB7LQfhwojnR1viPivvvDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904033292644-fasekj62kh90jilqppg38n6o3pr2k4q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
