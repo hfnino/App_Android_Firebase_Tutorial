@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) { // la función onCreate es la que se encarga de instanciar la vista
 
-        Thread.sleep(2000) // solo para mostrar el splash screen 2 seg mas.
+        Thread.sleep(3000) // solo para mostrar el splash screen 2 seg mas.
 
         setTheme(R.style.Theme_App_Android_Firebase_Tutorial) // Debemos tener claro que en el AndroidManifest le configuramos
         // al MainActivity el tema "@style/Theme_Splash_Screen" que es el encargado de mostrar el splash screen antes de que
@@ -31,8 +31,9 @@ class MainActivity : AppCompatActivity() {
         firebaseAnalytics = Firebase.analytics // instanciamos la variable firebaseAnalytics como un objeto de
                                                    // clase FirebaseAnalytics y asi poder registrar eventos con el metodo logEvent()
             val bundle = Bundle() // creamos la variable bundle que es una instancia de la clase Bundle() a la cual acontinuación
-                                // le agregamos un elemento compuestos por una clave y un valor.
-            bundle.putString("message", "Se ingreso a la Pantalla Inicial de la app")
+                                // le agregamos uno o varios elementos compuestos por una clave y un valor.
+            bundle.putString("message1", "Se ingreso a la Pantalla Inicial de la app")
+            bundle.putString("message2", "Se ingreso a la Pantalla Inicial de la app 2")
             firebaseAnalytics.logEvent("InitScreen", bundle) // el metodo logEvent() recibe como parametros la clave
                                                             // "InitScreen" que pusimos como ejemplo pero puede ser cualquier
                                     // otra, y recibe parametros especificos y/o personalizados por medio del bundle que
