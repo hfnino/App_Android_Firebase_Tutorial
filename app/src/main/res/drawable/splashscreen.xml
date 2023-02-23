@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@color/yellow_firebase"/>
+    <item android:drawable="@color/blue_cielo"/>
     <item>
         <bitmap android:src="@mipmap/logo_firebase_splash_screen"
             android:gravity="center"/>
