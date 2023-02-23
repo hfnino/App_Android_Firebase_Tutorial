@@ -1,6 +1,6 @@
 esta app fue creada siguiendo el curso de firebase de MoureDev
 
-=> https://www.youtube.com/watch?v=KYPc7CAYJOw&t=2s  ====> (05-09-2022) vamos en 13 min y 21 seg
+==> https://www.youtube.com/watch?v=KYPc7CAYJOw&t=2s  ====> (05-09-2022) vamos en 13 min y 21 seg
 
 https://makeappicon.com/ ==> en esta pagina pudemos cargar una unica imagen, y como resultado
 obtenemos automaticamente varias imagenes (iconos) de diferentes tamaños, para ser agregadas a nuesta app.
