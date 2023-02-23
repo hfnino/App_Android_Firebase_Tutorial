@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var firebaseAnalytics: FirebaseAnalytics // declaramos la variable "firebaseAnalytics" que vamos a
     //instanciar mas adelante como un objeto de la clase FirebaseAnalytics con el objetivo de integrar Analitics a nuestro
     //proyecto y poder registrar eventos personalizados con el metodo logEvent()
+    //
 
     override fun onCreate(savedInstanceState: Bundle?) { // la función onCreate es la que se encarga de instanciar la vista
 
