@@ -7,6 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="blue_cielo">#03A9F4</color>
+    <color name="blue_firebase_1">#039BE5</color>
+    <color name="blue_firebase_2">#2C384A</color>
     <color name="yellow_firebase">#FFCA28</color>
+    <color name="orange_firebase_1">#F57C00</color>
 </resources>

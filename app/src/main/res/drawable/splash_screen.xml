@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+    <item android:drawable="@color/blue_firebase_1"/>
+
+    <item
+        android:left="30dp"
+        android:right="30dp"
+        android:top="0dp"
+        android:bottom="0dp">
+        <bitmap
+            android:src="@mipmap/logo_firebase_splash_screen"
+            android:gravity="center"/>
+    </item>
+
+</layer-list>

@@ -1,6 +1,6 @@
 esta app fue creada siguiendo el curso de firebase de MoureDev
 
-==> https://www.youtube.com/watch?v=KYPc7CAYJOw&t=2s  ====> (05-09-2022) vamos en 13 min y 21 seg
+==> https://www.youtube.com/watch?v=KYPc7CAYJOw&t=2s  
 
 ==> Logos firebase => https://firebase.google.com/brand-guidelines?hl=es-419
 
@@ -9,3 +9,6 @@ obtenemos automaticamente varias imagenes (iconos) de diferentes tamaños, para 
 ==> https://www.youtube.com/watch?v=_y904vt4Nzk
 
 crear splash screen => https://www.youtube.com/watch?v=ksaaMt8Lo6U
+                    => https://www.youtube.com/watch?v=60_Vao-oaKI&t=5s (Este metodo es similar pero mejor)
+
+==> vamos en 30 min y 10 seg

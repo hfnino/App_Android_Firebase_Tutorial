@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.App_Android_Firebase_Tutorial" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/blue_cielo</item>
+        <item name="colorPrimary">@color/blue_firebase_1</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -13,9 +13,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-    <!-- El estilo que creamos a continuación, lo "llamamos Theme_Splash_Screen" y esta heredando las
-     propiedades de el tema anterior llamado "Theme.App_Android_Firebase_Tutorial"-->
+
+    <!-- El estilo y/o tema que creamos a continuación, lo llamamos "Theme_Splash_Screen" y
+    esta heredando las propiedades de el tema anterior llamado
+     "Theme.App_Android_Firebase_Tutorial"-->
+
     <style name="Theme_Splash_Screen"  parent="Theme.App_Android_Firebase_Tutorial">
-        <item name="android:windowBackground">@drawable/splashscreen</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
+
 </resources>
