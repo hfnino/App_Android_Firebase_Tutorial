@@ -17,11 +17,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:elevation="10dp"
+            tools:srcCompat="@drawable/com_facebook_profile_picture_blank_square" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
         <TextView
             android:id="@+id/textViewEmail"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="Email" />
+            android:text="Email:" />
 
         <Space
             android:layout_width="match_parent"
@@ -31,7 +43,27 @@
             android:id="@+id/textViewProvider"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="Proveedor" />
+            android:text="Proveedor:" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <TextView
+            android:id="@+id/textViewIdProvider"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Id de Proveedor:" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <TextView
+            android:id="@+id/textViewNameUser"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Nombre de usuario:" />
 
         <LinearLayout
             android:layout_width="match_parent"

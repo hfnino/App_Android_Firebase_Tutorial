@@ -59,8 +59,20 @@ dependencies {
     // integración de firebase y además dota a nuestro proyecto para utilizar Google Analitics
     // When using the BoM, don't specify versions in Firebase dependencies
     implementation 'com.google.firebase:firebase-auth-ktx' // esta libreria nos sirbe para la
-    // integración de firebase Authentication
+    // integración de firebase Authentication con proveedor Email y Contraseña
+    implementation 'com.google.android.gms:play-services-auth:20.4.1' // esta libreria nos sirbe para la
+    // integración de firebase Authentication con proveedor Google
+
+    //Facebook Authentication
+    //implementation 'com.facebook.android:facebook-android-sdk:[8,9)'
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
 
     // Otras Librerias
     implementation 'com.google.code.gson:gson:2.10.1'
+
+    //Glide - Es parecido a Picasso - El enfoque principal de Glide es hacer que el desplazamiento de cualquier tipo de lista de imágenes
+    // sea lo más fluido y rápido posible, pero Glide también es efectivo para casi cualquier caso en el que
+    // necesite buscar, cambiar el tamaño y mostrar una imagen remota.
+    implementation 'com.github.bumptech.glide:glide:4.15.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.15.0'
 }

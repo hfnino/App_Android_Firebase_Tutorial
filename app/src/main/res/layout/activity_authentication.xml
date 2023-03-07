@@ -5,10 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@android:color/white"
     tools:context=".AuthenticationActivity">
 
 
     <LinearLayout
+        android:id="@+id/linearLayout_Authentication"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -50,8 +52,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="@color/yellow_firebase"
-                android:textColor="@color/blue_firebase_2"
-                android:text="Registrar" />
+                android:text="Registrar"
+                android:textColor="@color/blue_firebase_2" />
 
             <Space
                 android:layout_width="8dp"
@@ -64,8 +66,41 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="@color/blue_firebase_2"
-                android:textColor="@color/yellow_firebase"
-                android:text="Acceder" />
+                android:text="Acceder"
+                android:textColor="@color/yellow_firebase" />
+
         </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <Button
+            android:id="@+id/buttonGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@mipmap/ic_google"
+            android:paddingStart="16dp"
+            android:text="Google"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <Button
+            android:id="@+id/buttonFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@mipmap/ic_facebook_40x40"
+            android:paddingStart="16dp"
+            android:text="Facebook"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black" />
+
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

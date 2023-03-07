@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">App_Android_Firebase_Tutorial</string>
+    <string name="file_share_preferents">co.com.henryto.App_Android_Firebase_Tutorial.FILE_SHARE_PREFERENS</string>
+    <string name="facebook_app_id">721183949654406</string>
+    <string name="fb_login_protocol_scheme">fb721183949654406</string>
+    <string name="facebook_client_token">a9d2d70e80cf35c83b00125d2e533552</string>
 </resources>
